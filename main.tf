@@ -18,7 +18,7 @@ resource "aws_instance" "example" {
       Name = "terraform-example"
   }
 
-  resource "aws_security_group" "instance" {
+resource "aws_security_group" "instance" {
     name = "terraform-example-instance"
 
     ingress {
