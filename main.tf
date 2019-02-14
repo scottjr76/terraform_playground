@@ -28,3 +28,4 @@ resource "aws_instance" "example" {
       cidr_blocks = ["0.0.0.0/0"]
   }
 }
+}
