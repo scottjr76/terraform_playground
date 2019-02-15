@@ -13,7 +13,7 @@ data "aws_availability_zones" "all" {
 }
 
 output "elb_dns_name" {
-  value = "${aws_elb.example.name}"
+  value = "${aws_elb.example.dns_name}"
 }
 
 resource "aws_launch_configuration" "example" {
